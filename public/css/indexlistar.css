@@ -1,0 +1,48 @@
+
+header {
+    background: #0067b1;
+    position: static;
+    width: 100%;
+    z-index: 9999;
+}
+
+.fomrlistar{
+    position: absolute;
+    top: 100px ;
+    left: 4%;
+    width: 90%;
+    background: rgb(235, 233, 233) ;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}   
+
+th , td{
+    border: solid 5px #eee;
+    padding: 5px;
+}       
+
+th{
+    background-color: rgb(69, 69, 146) ;
+    color: rgb(211, 204, 204);
+    block-size: 50px;
+    text-align: center;
+} 
+
+tr:nth-child(even){
+    background-color: rgb(153, 217, 234) ;
+}   
+
+tr:hover{
+    background-color: #aaa;
+} 
+
+.texto{
+    background-color: rgb(209, 203, 207) ;
+    color: rgb(155, 141, 149) ;
+    text-align: center;
+}
+
